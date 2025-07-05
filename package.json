@@ -1,0 +1,16 @@
+{
+  "name": "testcase-for-swaglabs",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Albert",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.2.0",
+    "@cypress/browserify-preprocessor": "^3.0.2"
+  }
+}
