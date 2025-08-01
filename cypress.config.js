@@ -24,14 +24,13 @@ module.exports = defineConfig({
   chromeWebSecurity: false,
 
   e2e: {
-    // baseUrl: "http://zero.webappsecurity.com/login.html",
     specPattern: "**/*.feature",
-    // specPattern: "**/*.js",
     setupNodeEvents,
     env: {
       stepDefinitions: [
-        "cypress/e2e/**/*.{js,ts}",
+        "cypress/e2e/[filepath].steps.js",
       ]
     }
   },
+  
 });
